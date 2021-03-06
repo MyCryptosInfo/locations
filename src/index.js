@@ -1,11 +1,4 @@
-const rootDomainName = 'mycryptos.info'
+const domains = require('./domains.js')
+const urls = require('./urls.js')
 
-const domainName = {
-  assets: `assets.${rootDomainName}`,
-  app: `app.${rootDomainName}`,
-  checkout: `checkout.${rootDomainName}`,
-  enter: `enter.${rootDomainName}`,
-  home: `www.${rootDomainName}`
-}
-
-module.exports = { domainName }
+module.exports = { ...domains, ...urls }
