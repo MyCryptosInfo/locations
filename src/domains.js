@@ -5,6 +5,7 @@ const domainName = {
   auth: `auth.${rootDomainName}`,
   app: `app.${rootDomainName}`,
   checkout: `checkout.${rootDomainName}`,
+  db: `db.${rootDomainName}`,
   home: `www.${rootDomainName}`
 }
 
