@@ -1,5 +1,5 @@
-const domains = require('./domains.js')
-const params = require('./params.js')
-const urls = require('./urls.js')
+const domains = require('./domains')
+const params = require('./params')
+const urls = require('./urls')
 
 module.exports = { ...domains, ...params, ...urls }
